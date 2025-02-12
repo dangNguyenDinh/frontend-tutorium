@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Find from "../pages/FindTutor";
 import SignupTutor from "../pages/SignupTutor";
 import TutorRegister from "../pages/TutorRegister";
+
 function User() {
   return (
     <Router>
