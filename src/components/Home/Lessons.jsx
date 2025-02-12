@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/LessonsSection.css';
+import '../../assets/css/home/LessonsSection.css';
 
 const LanguageLessonsSection = () => {
   return (

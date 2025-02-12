@@ -4,13 +4,16 @@ import HomePage from "../pages/Home";
 import Login from "../pages/Auth";
 import Navbar from "../components/Navbar";
 import Find from "../pages/FindTutor";
-import NavBarAfter from "../components/NavbarAfter";
+import SignupTutor from "../pages/SignupTutor";
+import TutorRegister from "../pages/TutorRegister";
 function User() {
   return (
     <Router>
 
 
       <Routes>
+        <Route path="/tutorRegister" element={<TutorRegister />} />
+        <Route path="/signupTutor" element={<SignupTutor />} />
         <Route path="/find" element={<Find />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />

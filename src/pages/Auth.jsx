@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavbarAfter from '../components/NavbarAfter'
-import Login from '../components/Login'
+import Login from '../components/Auth/Login'
 import Footer from '../components/Footer'
 import '../assets/css/home.css'
-import Signup from '../components/Signup'
+import Signup from '../components/Auth/Signup'
 const Home = () => {
     return (
         <div className='home-overflow'>

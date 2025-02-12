@@ -1,0 +1,28 @@
+.tutor-register-container {
+    
+  max-width: 800px;
+
+    padding: 20px;
+  }
+  
+  .step-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .tutor-register-container {
+    height: 100vh;
+  
+  }
+  
+  .step-column {
+    padding: 40px;
+    background: white;
+  }
+  .body-container {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }

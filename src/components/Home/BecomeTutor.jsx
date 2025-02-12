@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Tur from '../assets/img/tur.jpg';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import CSS của AOS
-import '../assets/css/becometutor.css';
+import '../../assets/css/home/becometutor.css';
 import { useNavigate } from "react-router-dom";
 const BecomeTutorSection = () => {
   useEffect(() => {
@@ -23,7 +23,12 @@ const BecomeTutorSection = () => {
           <li data-aos="fade-up" data-aos-delay="1000">Phát triển doanh nghiệp của bạn</li>
           <li data-aos="fade-up" data-aos-delay="1200">Nhận thanh toán an toàn</li>
         </ul>
-        <button onClick={() => Navigate ("/login")} className="become-tutor-button" data-aos="fade-up" data-aos-delay="1400">Trở thành gia sư&rarr;</button>
+        <button onClick={() => {
+          window.scrollTo({ top: 0})
+          Navigate("/signupTutor")
+        }
+        }
+          className="become-tutor-button" data-aos="fade-up" data-aos-delay="1400">Trở thành gia sư&rarr;</button>
         <div className="platform-info" data-aos="fade-up" data-aos-delay="1600">
           <a href="#">Nền tảng của chúng tôi hoạt động như thế nào</a>
         </div>

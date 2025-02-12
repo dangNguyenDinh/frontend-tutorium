@@ -2,11 +2,9 @@ import React, { useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import CSS của AOS
-import Tur from '../assets/img/tur.jpg';
-import Tutor1 from '../assets/img/tutor1.jpg';
-import Tutor2 from '../assets/img/tutor2.jpg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/Carousel.css';
+import '../../assets/css/home/carousel.css';
 
 const BootstrapCarousel = () => {
     useEffect(() => {

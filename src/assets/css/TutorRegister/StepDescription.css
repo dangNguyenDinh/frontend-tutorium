@@ -1,0 +1,18 @@
+.step-description {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .step-description h2 {
+    font-size: 24px;
+  }
+  
+  .step-description textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  

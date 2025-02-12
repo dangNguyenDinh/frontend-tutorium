@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/find.css';
-import '../assets/css/schedule.css';
-import { FaStar, FaHeart, FaChevronLeft, FaChevronRight, FaRegClock } from 'react-icons/fa';
-import Tur from '../assets/img/tur.jpg';
-import { Dialog, DialogContent, DialogTitle } from "./Dialog";
-import { Button } from "./ButtonPopup";
+import React, { useState } from 'react';
+import { FaChevronLeft, FaChevronRight, FaHeart, FaRegClock, FaStar } from 'react-icons/fa';
+import '../../assets/css/find.css';
+import '../../assets/css/schedule.css';
+import Tur from '../../assets/img/tur.jpg';
+import { Button } from "../ButtonPopup";
+import { DialogContent, DialogTitle } from "../Dialog";
 
 const TutorCard = () => {
     const [open, setOpen] = useState(false);

@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-import '../assets/css/Hero.css'; // Thêm CSS để định dạng hero section
+import '../../assets/css/home/Hero.css'; // Thêm CSS để định dạng hero section
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import CSS của AOS
-import tur from '../assets/img/tur.jpg';
-import'../assets/css/fonts.css';
+import'../../assets/css/fonts.css';
 const HeroSection = () => {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true }); // Khởi tạo AOS với thời gian animation 1s

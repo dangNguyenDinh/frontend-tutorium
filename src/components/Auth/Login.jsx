@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaGoogle, FaEye, FaEyeSlash } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/Login.css';
+import '../../assets/css/Auth/Login.css';
 
 
 const LoginPage = () => {

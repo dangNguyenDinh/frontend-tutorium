@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Carousel from '../components/Carousel'
-import BecomeTutor from '../components/BecomeTutor'
-import Lessons from '../components/Lessons'
+import Hero from '../components/Home/Hero'
+import Carousel from '../components/Home/Carousel'
+import BecomeTutor from '../components/Home/BecomeTutor'
+import Lessons from '../components/Home/Lessons'
 import Footer from '../components/Footer'
 import '../assets/css/home.css'
 const Home = () => {
